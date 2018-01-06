@@ -4,7 +4,8 @@
 # 1. Bilangan prima hanya bisa dibagi 1 dan bilangan itu sendiri
 # 2. Bilangan prima dimulai dari 2
 # 3. Pilih angka x, bandingkan x dengan rentang angka dibawahnya (2 sampai x-1)
-#
+# 
+# Contoh dibawah ini merupakan program mencetak 20 bilangan prima
 #
 '''
 
