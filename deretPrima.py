@@ -6,14 +6,18 @@
 # 3. Pilih angka x, bandingkan x dengan rentang angka dibawahnya (2 sampai x-1)
 # 
 # Contoh dibawah ini merupakan program mencetak 20 bilangan prima
+# output: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71
 #
 '''
 
 jml = 0
-bil = 2 # inisiasi bilangan prima dimulai dari 2
+bil = 0 # inisiasi bilangan prima dimulai dari 2
 
 while jml < 20:
     isPrima = True               # reset boolean isPrima tiap perulangan/ pencarian bilangan prima
+    
+    if bil == 0 or bil == 1:
+        isPrima = False
 
     for i in range(2,bil):       # [2,3,...,bil - 1]
         if bil % i == 0:         # Jika ada bilangan yang habis dibagi bilangan lain selain 1 dan bil
