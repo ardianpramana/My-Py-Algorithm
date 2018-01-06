@@ -10,7 +10,7 @@
 '''
 
 jml = 0
-bil = 2 # inisiasi bilangan prima dimulai dari 2
+bil = 0 # inisiasi bilangan prima dimulai dari 2
 
 while jml < 20:
     isPrima = True               # reset boolean isPrima tiap perulangan/ pencarian bilangan prima
