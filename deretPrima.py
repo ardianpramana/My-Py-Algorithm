@@ -15,6 +15,9 @@ bil = 2 # inisiasi bilangan prima dimulai dari 2
 while jml < 20:
     isPrima = True               # reset boolean isPrima tiap perulangan/ pencarian bilangan prima
 
+    if  bil == 0 or bil == 1:
+        isPrima = False
+
     for i in range(2,bil):       # [2,3,...,bil - 1]
         if bil % i == 0:         # Jika ada bilangan yang habis dibagi bilangan lain selain 1 dan bil
             isPrima = False      

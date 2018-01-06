@@ -1,5 +1,8 @@
 # My-Py-Algorithm
 
+6-Jan-2018 22:19
+1. Update untuk iterasi dimulai dari 0 dan 2
+
 6-Jan-2018
 1. Update deskripsi deretPrima.py
 
